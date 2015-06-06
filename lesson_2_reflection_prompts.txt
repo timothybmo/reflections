@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 get init creates a hidden git dir
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Going to be a good place to test before commit
