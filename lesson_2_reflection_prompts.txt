@@ -1,8 +1,34 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-get init creates a hidden git dir
+	get init creates a hidden git dir
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-Going to be a good place to test before commit
+	Going to be a good place to test before commit
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By git add only adding one file
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	For testing purposes without changing the main line
+	Development and Experimental branches
+
+
+How do the diagrams help you visualize the branch structure?
+	
+	Helps show the hierarchy and who each parent is
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	A combo of the merge and master.  Diagram shows the parenting and easy description 	of how the merge will affect each
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pro- it gives you a good description of what has changed 
+	Cons - still needs manual resolution of conflicts
